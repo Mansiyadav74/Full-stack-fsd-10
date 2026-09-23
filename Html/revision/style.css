@@ -1,0 +1,121 @@
+/* Reset basic padding and margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the navigation bar container */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Pushes logo to left, links to right */
+  align-items: center;
+  background-color: #333;
+  padding: 15px 30px;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the brand logo */
+.navbar .logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Style the list wrapper */
+.nav-links {
+  list-style: none; /* Removes bullet points */
+  display: flex;    /* Aligns list items horizontally */
+}
+
+/* Add spacing between links */
+.nav-links li {
+  padding: 0 15px;
+}
+
+/* Style the individual links */
+.nav-links a {
+  color: #fff;
+  text-decoration: none; /* Removes underline */
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+/* Add a hover effect */
+.nav-links a:hover {
+  color: #f4a261; /* Changes color when mouse hovers over link */
+}
+/* Update HTML and Body to take full height */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* Stacks elements vertically */
+}
+
+/* Forces main content to expand and push footer down */
+.content {
+  flex: 1; 
+  padding: 40px 30px;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the footer container */
+.footer {
+  background-color: #222;
+  color: #bbb;
+  padding: 20px 30px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Align footer layout */
+.footer-content {
+  display: flex;
+  justify-content: space-between; /* Puts text on left, links on right */
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style the footer list */
+.footer-links {
+  list-style: none;
+  display: flex;
+}
+
+.footer-links li {
+  margin-left: 20px;
+}
+
+/* Style the footer links */
+.footer-links a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #f4a261; 
+
+}
+/* Container ko poore page ke beech me lane ke liye */
+.image-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  min-height: 50vh;        
+}
+
+/* Photo ko circle karne ke liye */
+.circle-photo {
+  width: 200px;           
+  height: 200px;          
+  border-radius: 50%;     
+  object-fit: cover;      
+  border: 4px solid #f4a261; 
+}
+
+
