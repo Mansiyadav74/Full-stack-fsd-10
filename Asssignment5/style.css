@@ -1,0 +1,169 @@
+
+/* .main
+{
+    background:blue;
+    width:96%px;
+    height:380px;
+    display:flex;
+    margin:15px 20px 20px;
+
+   justify-content: center;
+    align-items:center;
+    gap:37px
+    
+   
+   
+}
+#first{
+    background-color: aliceblue;
+     width:250px;
+    height:220px;
+     justify-content: space-between; 
+    border-radius: 4px;
+    display:flex;
+     padding:14px;
+    margin-top:40px; 
+    align: center;
+
+  
+    
+}
+#reg{
+   background-color: aliceblue;
+    width:250px;
+    height:300px;
+    justify-content: space-between;
+    display:flex;
+    padding:14px;
+    margin-bottom : 35px;
+    margin-top:40px;
+   
+
+} */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: white;
+}
+
+
+.main {
+    width: 96%;
+    height: 380px;
+    margin: 15px auto 0;
+    background: #4169e1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+}
+
+
+.box {
+    background: white;
+    width: 205px;
+    min-height: 220px;
+    border-radius: 4px;
+    padding: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-box {
+    margin-top: 40px;
+}
+
+.register-box {
+    margin-bottom: 35px;
+}
+
+h3{
+    align-items: baseline;
+}
+.input-box{
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    height:34px;
+    margin-bottom: 7px;
+    color:#aaa
+}
+.input-box span {
+    font-size: 13px;
+    margin-right: 7px;
+}
+
+.input-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 9px;
+    color: #555;
+}
+
+.input-box input::placeholder {
+    color: #aaa;
+}
+
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 7px;
+    margin: 8px 0 20px;
+}
+
+.options label {
+    color: #777;
+}
+
+.options input,
+.terms input {
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+}
+
+.options a,
+p a {
+    color: #4169e1;
+    text-decoration: none;
+}
+
+
+.terms {
+    font-size: 7px;
+    color: #777;
+    margin: 8px 0 20px;
+}
+
+
+button {
+    width: 100%;
+    height: 26px;
+    border: none;
+    border-radius: 3px;
+    background: #4169e1;
+    color: white;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3158d4;
+}
+
+
+p {
+    text-align: center;
+    font-size: 7px;
+    color: #777;
+    margin-top: 12px;
+
+}

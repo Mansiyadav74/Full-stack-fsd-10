@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script:wght@400..700&family=Saira:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: "Black ops One", system-ui;
+}
+.subheading {
+  font-size: x-large;
+  font-weight: 700;
+  font-style: italic;
+  font-family: "Dancing script", cursive;
+}
+#description span {
+  text-decoration: underline;
+  font-weight: 400;
+  color: blueviolet;
+}
+main {
+  margin-top: 10px;
+}
+section {
+  padding: 20px;
+}
+.pointer-head {
+  font-size: large;
+  font-weight: 700;
+  font-family:"Creepster",Impact, Arial Narrow Bold;
+}
+ul {
+  margin-left: 30px;
+  list-style: "Ǒ  ";
+  /* list-style-image: url(https://www.pinterest.com/pin/88383211424382477/); */
+}
+#section2 {
+  ol {
+    margin-left: 30px;
+    list-style: lower-greek;
+  }
+  li::first-letter {
+    font-size: xx-large;
+  }
+
+  ol li:first-child {
+    background-color: brown;
+  }
+  ol li:last-child {
+    background-color: aquamarine;
+  }
+}
+
+/* pseudo class---- active hover in button properties */
+/* pseudo element */
+#section3 {
+  ol {
+    margin-left: 30px;
+    list-style: lower-roman;
+    line-height: 50px;
+  }
+
+  ol li:nth-child(even) {
+    background-color: rgb(201, 205, 3);
+  }
+  ol li:nth-child(odd) {
+    background-color: rgb(244, 246, 166);
+  }
+}
+
+#section4 {
+  table {
+    border-collapse: collapse;
+  }
+
+  caption {
+    color: #0147f9;
+    font-size: larger;
+    font-weight: 800;
+    font-variant-caps: all-petite-caps;
+  }
+  td,
+  th {
+    border: 1px solid #000;
+    padding: 3px 6px;
+  }
+
+  thead {
+    background-color: #0147f9;
+    color: aliceblue;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #dbeff6;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #b0e5f8;
+  }
+}
+
+footer {
+  background-color: midnightblue;
+  color: aliceblue;
+  padding: 5px;
+  text-align: center;
+}
+#lorem-paragraph {
+  line-height: 30px;
+  word-spacing: 20px;
+  letter-spacing: 10px;
+}
