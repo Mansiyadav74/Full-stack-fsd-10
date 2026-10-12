@@ -31,7 +31,7 @@ for(i=0;i<5;i++)
 {
     for(int j=0;j<4;j++)
     {
-        
+        1
     }
     console.log("we are learning in ricr",i);
 

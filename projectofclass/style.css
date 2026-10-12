@@ -22,16 +22,28 @@ body {
 }
 .menu i
 {
-     display: flex;
+     /* display: flex;
     align-items: center;
     gap: 12px;
     margin-left: auto;
-    justify-content:end;
-    
-
+    justify-content:center;
+     */
+     
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+}
+.menu i a
+{
+    color: #142b50;
+    font-size: 22px;
+    text-decoration: none;
 
 
 }
+
 
 
 
